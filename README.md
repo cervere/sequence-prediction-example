@@ -24,8 +24,11 @@ root_dir
         -- train.csv
         -- answers.csv      
 ```
-The root directory contains Jupyter notebooks for 
- - [AlienChatDataSet](AlienChatDataSet.ipynb) : exploring the DataSet (formed from the files in `data` folder),  
+The root directory contains the following Jupyter notebooks : 
+ - [AlienChatDataSet](AlienChatDataSet.ipynb) : exploring the DataSet (formed from the files in `data` folder)
+ - [AlienChat_LSTM_Keras](AlienChat_LSTM_Keras.ipynb) : LSTM implementation using Keras
+ - [NN_AlienChat](NN_AlienChat.ipynb) : Basic Neural Network implementation, like an image classification problem
+ 
 ### Dependencies
 ```
 tensorflow==2.3.0
